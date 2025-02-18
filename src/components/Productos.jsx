@@ -1,3 +1,4 @@
+import bannerMaquina from '../images/bannerMaquina.jpg';
 
 
 
@@ -23,13 +24,13 @@ export const Productos = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active" data-aos="fade-right" data-aos-duration="2000">
-                <img src="https://i.im.ge/2022/11/12/SrXofJ.IMG-4570.jpg" className="d-block w-100" alt="..."/>
+                <img src={bannerMaquina} className="d-block w-100" alt="..."/>
               </div>
               <div className="carousel-item">
-                <img src="https://i.im.ge/2022/11/12/SrXTPa.IMG-4569.jpg" className="d-block w-100" alt="..."/>
+                <img src={bannerMaquina} className="d-block w-100" alt="..."/>
               </div>
               <div className="carousel-item">
-                <img src="https://i.im.ge/2022/11/12/SrXofJ.IMG-4570.jpg" className="d-block w-100" alt="..."/>
+                <img src={bannerMaquina} className="d-block w-100" alt="..."/>
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -78,7 +79,7 @@ export const Productos = () => {
 
           <h2 className='titulo-producto titulo-producto2'>Matriz</h2>
 
-          <img data-aos="fade-left" data-aos-duration="2000" className='img-macho' src="https://i.im.ge/2022/11/12/SrXTPa.IMG-4569.jpg" alt="" />
+          <img data-aos="fade-left" data-aos-duration="2000" className='img-macho' src={bannerMaquina} alt="" />
           
       </div>
 
@@ -92,7 +93,7 @@ export const Productos = () => {
 
           <h2 className='titulo-producto'>Matriz</h2>
 
-          <img data-aos="fade-right" data-aos-duration="2000" className='img-macho' src="https://i.im.ge/2022/11/12/SrXTPa.IMG-4569.jpg" alt="" />
+          <img data-aos="fade-right" data-aos-duration="2000" className='img-macho' src={bannerMaquina} alt="" />
           
       </div>
 

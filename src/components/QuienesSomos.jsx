@@ -1,3 +1,4 @@
+import logoCvv from '../images/logoCVV.png';
 
 
 export const QuienesSomos = () => {
@@ -9,7 +10,7 @@ export const QuienesSomos = () => {
           <div className="container container-quienes-somos">
   
               <div className="col-6">
-                    <img height="150px" src="https://i.im.ge/2022/11/11/SocwSS.C-1.png" alt="" />
+                    <img height="150px" src={logoCvv} alt="" />
                     <p className="parrafo-historia">AluminumMold es una empresa de asociados, fundada el 15 de marzo de 2020.
                         <br /><br /> La misma estaba orientada a realizar pequeños trabajos metalúrgicos para abastecer a la agroindustria local. 
                         Con el correr de los años, la empresa comienza a ener éxito como fabricante de máquinas moldeadoreas, conformando 

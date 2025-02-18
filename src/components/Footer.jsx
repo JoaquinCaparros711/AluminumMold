@@ -1,3 +1,4 @@
+import logoCvv from '../images/logoCVV.png';
 
 
 export const Footer = () => {
@@ -10,7 +11,7 @@ export const Footer = () => {
           <div className="container-footer">
   
               <div className="col-4">
-                  <img height="100px" src="https://i.im.ge/2022/11/11/SocwSS.C-1.png" alt="" />
+                  <img height="100px" src={logoCvv} alt="" />
               </div>
   
               <div className="footer-contacto col-4">

@@ -1,5 +1,15 @@
 import 'animate.css';
 import { NavLink } from 'react-router-dom';
+import bannerMaquina from '../images/bannerMaquina.jpg';
+import hembra from '../images/hembra.jpg';
+import macho from '../images/macho.jpg';
+import estrella from '../images/estrella.png';
+import herramientas from '../images/herramientas.png';
+import Dinero from '../images/Dinero.png';
+
+
+
+
 
 
 export const InicioPage = () => {
@@ -31,7 +41,7 @@ export const InicioPage = () => {
 
           <div className="card-productos" data-aos="fade-down" data-aos-duration="2000">
 
-            <img height="400px" src="https://i.im.ge/2022/11/29/S6FnoD.Imagen-de-WhatsApp-2022-11-28-a-las-23-56-50.jpg" alt="" />
+            <img height="400px" src={bannerMaquina} alt="" />
 
             <h2>Moldeadora</h2>
 
@@ -39,7 +49,7 @@ export const InicioPage = () => {
 
           <div className="card-productos" data-aos="fade-up" data-aos-duration="2000">
 
-            <img height="400px" src="https://i.im.ge/2022/11/12/SroBIc.IMG-4567.jpg" alt="" />
+            <img height="400px" src={macho} alt="" />
 
             <h2>Matriz(macho)</h2>
 
@@ -47,7 +57,7 @@ export const InicioPage = () => {
 
           <div className="card-productos" data-aos="fade-down" data-aos-duration="2000"> 
 
-            <img height="400px" src="https://i.im.ge/2022/11/12/Sro4QT.IMG-4566.jpg" alt="" />
+            <img height="400px" src={hembra} alt="" />
 
             <h2>Matriz(hembra)</h2>   
 
@@ -71,7 +81,7 @@ export const InicioPage = () => {
 
           <div className="card-productos">
 
-            <img data-aos="fade-down" data-aos-duration="2000" height="100px" src="https://i.im.ge/2022/11/11/SoYRqY.4124813-badge-insignia-premium-badge-quality-star-badge-113911.png" alt="" />
+            <img data-aos="fade-down" data-aos-duration="2000" height="100px" src={estrella} alt="" />
             <h1>Calidad Precio</h1> 
             <p>
               Ofrecemos equipos de alta <br /> calidad
@@ -82,7 +92,7 @@ export const InicioPage = () => {
 
           <div className="card-productos">
             
-            <img data-aos="fade-down" data-aos-duration="2000" height="100px" src="https://i.im.ge/2022/11/11/SoYg4M.electronic-repair-service-tool-equipment-icon-193578.png" alt="" />
+            <img data-aos="fade-down" data-aos-duration="2000" height="100px" src={herramientas} alt="" />
             <h1>Servicio y Garantía</h1> 
             <p>Personalizado servicio post-venta, <br /> garantía de fabricación, disponibilidad de repuestos.</p>
 
@@ -90,7 +100,7 @@ export const InicioPage = () => {
 
           <div className="card-productos">
 
-            <img data-aos="fade-down" data-aos-duration="2000" height="100px" src="https://i.im.ge/2022/11/11/SoYWtD.bagofmoney-5108.png" alt="" />
+            <img data-aos="fade-down" data-aos-duration="2000" height="100px" src={Dinero} alt="" />
             <h1>Beneficios</h1> 
             <p>Óptima relación costo/beneficio. <br />
               Larga vida útil. Nuestros productos <br />
